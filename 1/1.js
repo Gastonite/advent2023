@@ -1,3 +1,4 @@
+/* global console */
 import input from './input.js'
 
 
