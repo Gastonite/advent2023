@@ -1,7 +1,7 @@
 /* global console */
 import input from './input.js'
 
-const exercice = input => {
+const puzzle = input => {
 
   const games = input.split('\n')
 
@@ -38,4 +38,4 @@ const exercice = input => {
   return sum
 }
 
-console.log('result is', exercice(input))
+console.log('result is', puzzle(input))

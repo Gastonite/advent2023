@@ -4,7 +4,7 @@ import input from './input.js'
 
 const isDigit = char => char > '/' && char < ':'
 
-const exercice = input => {
+const puzzle = input => {
 
   let sum = 0
   const numbers = []
@@ -79,4 +79,4 @@ const exercice = input => {
   return sum
 }
 
-console.log('result is', exercice(input))
+console.log('result is', puzzle(input))

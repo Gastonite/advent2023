@@ -12,11 +12,7 @@ const parseNumberSequence = s => {
     .map(parseInteger)
 }
 
-const countCards = () => {
-
-}
-
-const exercice = input => {
+const puzzle = input => {
   const cards = input.split('\n')
 
   const wonCards = []
@@ -53,4 +49,4 @@ const exercice = input => {
   return cardCount
 }
 
-console.log('result is', exercice(input)) // 14814534
+console.log('result is', puzzle(input)) // 14814534

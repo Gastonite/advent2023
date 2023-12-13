@@ -13,7 +13,7 @@ const digits = [
   'nine',
 ]
 
-const exercice = (text) => {
+const puzzle = (text) => {
 
   let sum = 0
 
@@ -70,4 +70,4 @@ const exercice = (text) => {
   return sum
 }
 
-console.log(exercice(input))
+console.log(puzzle(input))

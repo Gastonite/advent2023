@@ -4,7 +4,7 @@ import input from './input.js'
 
 const isDigit = char => char > '/' && char < ':'
 
-const exercice = input => {
+const puzzle = input => {
 
   let sum = 0
   let lines = input.split('\n')
@@ -168,4 +168,4 @@ const buildNumberBackward = (line, index) => {
   return number
 }
 
-console.log('result is', exercice(input)) // 91031374
+console.log('result is', puzzle(input)) // 91031374

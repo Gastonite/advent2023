@@ -2,7 +2,7 @@
 import input from './input.js'
 
 
-const exercice = (text) => {
+const puzzle = (text) => {
 
   const lines = text.split('\n')
   let sum = 0
@@ -33,4 +33,4 @@ const exercice = (text) => {
 
 
 
-console.log(exercice(input))
+console.log(puzzle(input))
