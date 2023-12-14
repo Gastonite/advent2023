@@ -61,12 +61,9 @@ const findMax = (duration, distance) => {
 const puzzle = input => {
   const [duration, distance] = parseInput(input)
 
-  let min = 0
-  let max = 0
+  const min = findMin(duration, distance)
 
-  min = findMin(duration, distance)
-
-  max = findMax(duration, distance)
+  const max = findMax(duration, distance)
 
   return (max - min) + 1
 }
